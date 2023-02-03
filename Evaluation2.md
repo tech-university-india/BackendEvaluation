@@ -115,6 +115,7 @@ Requirements:
 
 2. GET API using query params which takes sector name as input
 and returns the top ranked companies by score
+The second api is calling the database only.
 
     GET /api/companies?sector=
 
