@@ -37,11 +37,18 @@ Requirements:
     Sample Output:
     ```json
     {
-        "id": "95b5a067-808a-44a9-a490-b4ef8a045f61",
-        "name": "Volkswagen",
-        "tags": ["Cars", "EV"],
-        "ceo": "",
-        "numberEmployees": 15000
+        "id": "b6472c52-732a-4fd2-a463-ae604c0a2c79",
+        "name": "Microsoft",
+        "description": "Sapiente earum molestiae molestias maxime numquam rem esse quos excepturi. Nihil accusamus sequi ipsa. Harum cupiditate ipsa. Eveniet corporis est nemo officia numquam non fugiat. Incidunt mollitia atque officia doloribus voluptatem. Sint repellendus velit.",
+        "ceo": "Gary Hauck",
+        "tags": [
+            "dynamic",
+            "front-end",
+            "24/7",
+            "front-end",
+            "dynamic",
+            "user-centric"
+        ]
     }
     ```
 
@@ -139,7 +146,7 @@ The second api is calling the database only.
     }]
     ```
 
-3. Update API to update company ceo name or address. Name the API as per standard REST API conventions and methods. Decide what should be the correct output for the API.
+3. Update API to update company name or ceo name. Name the API as per standard REST API conventions and methods. Decide what should be the correct output for the API.
 
 Tech Stack:
 Express, postgres, sequelize 
