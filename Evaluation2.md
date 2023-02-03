@@ -87,8 +87,8 @@ Requirements:
     }]
     ```
 
-    - Collate the company data such as company ID, company name, ceo name, address, the company score etc and save these details to your database
-    - Create a proper database schema such that you can save all the company details, the compnay address and the company score
+    - Collate the company data such as company ID, company name, ceo name, tags, the company score etc and save these details to your database
+    - Create a proper database schema such that you can save all the company details,  and the company score
     - If there are any failures while saving, throw proper errors
 
     A company's score is calculated by 
