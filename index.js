@@ -7,6 +7,7 @@ const { companies, sectors } = require('./constants');
 
 const port = 4000;
 app.use(cors())
+app.use(express.static('public'))
 
 app.get('/company/:id', async (req, res) => {
   const { id } = req.params;
